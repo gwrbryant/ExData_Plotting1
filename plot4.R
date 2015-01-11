@@ -7,7 +7,12 @@
 # resolution of 96 dpi, and transparent background.
 # There may potentially be some subtle effects due to differences 
 # in size and platform rendering (this code ran under Win 7).
-
+#
+# The data set can be found on the Coursera project site and/or downloaded from
+# https://archive.ics.uci.edu/ml/machine-learning-databases/00235/household_power_consumption.zip
+# The following code assumes the file has already been downloaded and 
+# extracted to the working directory prior to running it.
+#
 # The data interval is 1 minute, making the dataset very large. For this project
 # we are only interested in the period 1-2 February 2007, and so will only read 
 # in this subset of the data. We do this by calculating the data point number 
